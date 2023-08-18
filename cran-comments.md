@@ -9,4 +9,4 @@ There was 1 NOTE:
 This package is a new submission to CRAN. There are no spelling mistakes in the DESCRIPTION file.
 
 ## Downstream dependencies
-There are currently no downstream dependencies for TheoChemR.
+There are currently no downstream dependencies for MolGraphR.

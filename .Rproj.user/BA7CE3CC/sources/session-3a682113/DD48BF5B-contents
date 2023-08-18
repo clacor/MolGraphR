@@ -5,3 +5,15 @@ roxygen2::roxygenise()
 check()
 build()
 install()
+
+## First submission
+
+usethis::use_news_md()
+
+## Checking before submission
+
+devtools::check_rhub()
+devtools::check_win_release()
+devtools::check_win_devel()
+devtools::check_win_oldrelease()
+devtools::check_mac_release()

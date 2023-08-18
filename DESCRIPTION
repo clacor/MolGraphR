@@ -1,0 +1,27 @@
+Package: MolGraphR
+Type: Package
+Title: Conversion Between Graph Formats for Small Molecule Analysis
+Version: 0.0.4
+Date: 2023-08-18
+Authors@R: c(
+    person("Robert", "Geitner", email = "robert.geitner@tu-ilmenau.de", role = c("cre", "aut")))
+Description: MolGraphR provides small yet useful functions for the conversion
+  between chemical data formats mainly SDF and tidygraphs tbl_graph objects.
+  The package also provides some functions for the chemistry inspired analysis
+  of graphs as well as two plotting functions for molecular graph visualization.
+Imports: ChemmineR,
+    PeriodicTable,
+    dplyr,
+    ggforce,
+    ggplot2,
+    ggraph,
+    igraph,
+    magrittr,
+    methods,
+    stringr,
+    tidygraph
+License: GPL-3
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Suggests: knitr, 
+    rmarkdown

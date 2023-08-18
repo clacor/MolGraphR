@@ -1,0 +1,7 @@
+library("devtools")
+
+roxygen2::roxygenise()
+
+check()
+build()
+install()
